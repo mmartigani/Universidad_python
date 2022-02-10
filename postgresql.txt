@@ -1,0 +1,22 @@
+-------------------------------------------
+descargamos postgresql
+-------------------------------------------
+elegimos el S.O
+click en el instalador
+dejamos la configuraciones por defecto 
+colocamos contraseña y user (admin)
+puerto lo dejamos 5432
+click en pgAdmin interfaz grafica 
+---------------------------------------------
+database_click derecho create database
+test_db
+crear tabla ir a shemas-public
+table -create table 
+click derecho properties-column
+creamos ala llave primaria 
+id_persona serial yes primary key yes not null 
+la llave primaria nos permite identificar de manera unica los ,
+registros que vamos agregando a la tabla de persona
+
+
+----------------------------------------------------
